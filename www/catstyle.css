@@ -1,0 +1,145 @@
+body{
+	background-image:url('http://jinqiaojs.com/hd/brazil-beach-hd-wallpaper-high-resolution-r02.jpg');
+	margin:0;
+}
+
+.cont{
+	width:650px;
+	background-color:rgba(242, 231, 13, 0.3);
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	margin-top:40px;
+	height:auto;
+	padding-bottom:80px;
+	border-radius:25px;
+	
+}
+.logo{
+	width:500;
+	background-color: #E1E2E3;
+	border: 3px solid #FA761F;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	filter:none;
+}
+
+.categories{
+	width:400px;
+	height: 300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.events{
+	height:60px;
+	background-color:  #78B5FE;
+	width:400px;
+	text-align:center;
+	margin-top:3px;
+	border-radius:5px;
+}
+.events h1{
+	margin-top:0;
+	padding-top:10px;
+}
+.events:hover{
+	height:63px;
+	width:403px;
+	background-color:white;
+	color:#78B5FE;
+	transition: .2s ease-out;
+    transition-property: initial;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.02, -0.02, 0.58, 1);
+    transition-delay: initial;
+}
+.forsale{
+	height:60px;
+	background-color: #76CA04;
+	width:400px;
+	text-align:center;
+	margin-top:3px;
+	border-radius:5px;
+}
+.forsale h1{
+	margin-top:0;
+	padding-top:10px;
+}
+.forsale:hover{
+	height:63px;
+	width:403px;
+	background-color:white;
+	color:#76CA04;
+	transition-duration: 0.2s;
+}
+.favors{
+	height:60px;
+	background-color: #EEFD35;
+	width:400px;
+	text-align:center;
+	margin-top:3px;
+	border-radius:5px;
+}
+.favors h1{
+	margin-top:0;
+	padding-top:10px;
+}
+.favors:hover{
+	height:63px;
+	width:403px;
+	background-color:white;
+	color:#EEFD35;
+	transition-duration: 0.2s;
+}
+.food{
+	height:60px;
+	background-color: #FC7903;
+	width:400px;
+	text-align:center;
+	margin-top:3px;
+	border-radius:5px;
+}
+.food h1{
+	margin-top:0;
+	padding-top:10px;
+}
+.food:hover{
+	height:63px;
+	width:403px;
+	background-color:white;
+	color:#FC7903;
+	transition-duration: 0.2s;
+}
+.rides{
+	height:60px;
+	background-color: #EA4335;
+	width:400px;
+	text-align:center;
+	margin-top:3px;
+	border-radius:5px;
+}
+.rides h1{
+	margin-top:0;
+	padding-top:10px;
+}
+.rides:hover{
+	height:63px;
+	width:403px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	color:#EA4335;
+	transition-duration: 0.2s;
+}
+.footer{
+	text-align:center;
+	width:100%;
+	color:white;
+}

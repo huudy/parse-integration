@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<meta name="HandheldFriendly" content="true">
+
+	<title>Categories</title>
+	
+	<meta name="description" content="Serwis o starych grach pochodzących z Nintendo Entertainment System" />
+	<meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href="css/homestyle.css" rel="stylesheet" type="text/css" />
+	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+	
+	<script src="js/app.js"></script>
+	<script src="js/fbLog.js"></script>
+</head>
+
+<body>
+<script>
+var user = new Parse.User();
+			if(Parse.User.current()){
+					 window.alert("Logged in as "+ user.getUsername()+ user.getSessionToken());
+				 }
+				 else{
+				 window.alert("Nodoby is in here");
+				 }
+</script>
+	<div class="wrapper"> 
+		<div class="header">
+			<a href="homepage.html"><div class="logo">Bu<span style="color: rgb(57, 91, 88)";>dd</span>y</div></a>
+			<div style="clear:both;"></div>
+			
+		</div>
+		<div class="nav">
+			<ol>
+				<li><a href="homepage.html"> <i class="icon-home-outline"></i> </a></li>
+				<li><a href="messenger.html"> <i class="icon-mail"></i> </a></li>
+				<li><a href="index.html"> <i class="icon-plus-outline"></i>  </a></li>
+				<li><a href="profile.html"> <i class="icon-user"></i> </a></li>
+			</ol>
+			
+		</div>
+
+		<div class="content">
+			<div class="categories">
+					<div class="events"><h1> Events</h1></div>
+					<div class="forsale"><h1>For Sale</h1></div>
+					<div class="favors"><h1>Favors</h1></div>
+					<div class="food"><h1>Food</h1></div>
+					<div class="rides"><h1>Rides</h1></div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<div class="footer">Buddy.com &copy; Soon on your phone. Solve problems, make money, meet friends!</div>
+
+</body>
+
+</html>
